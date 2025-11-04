@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "../components/Header/Header"
 import styles from './page.module.css'
+import CardStatus from '../components/CardStatus/CardStatus'
 
 export default function HomeAdm() {
   return (
@@ -21,6 +22,10 @@ export default function HomeAdm() {
         </div>
 
         <h1>Dashboard:</h1>
+      </div>
+
+      <div>
+        <CardStatus />
       </div>
 
     </div>

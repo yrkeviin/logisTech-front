@@ -16,6 +16,17 @@
     width: 100%;
 }
 
+.header h1 {
+    transition: .4s ease-in-out;
+}
+
+.header h1:hover {
+    color: #FF3A18;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    font-size: 2.05rem;
+}
+
 .header ul {
     display: flex;
     list-style: none;
