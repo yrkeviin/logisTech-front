@@ -1,7 +1,11 @@
 import React from 'react'
+import Header from "../components/Header/Header"
+import styles from './page.module.css'
 
-export default function page() {
+export default function HomeAdm() {
   return (
-    <div>page</div>
+    <div className={styles.container}>
+      <Header />
+    </div>
   )
 }
