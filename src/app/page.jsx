@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from "../components/Header/Header"
 import styles from './page.module.css'
-import CardStatus from '../components/CardStatus/CardStatus'
 
 export default function HomeAdm() {
   return (
@@ -24,9 +23,33 @@ export default function HomeAdm() {
         <h1>Dashboard:</h1>
       </div>
 
-      <div>
-        <CardStatus />
+      <div className={styles.dash}>
+        <div className={styles.cardStatus}>
+          <div className={styles.banner}>
+              <h1>Pendentes</h1>
+          </div>
+
+          <p>Aqui está um banner com tons de amarelo, mantendo o mesmo estilo abstrato de logística, sem ícones ou escrita.</p>
+        </div>
+
+        <div className={styles.cardStatus}>
+          <div className={styles.banner2}>
+              <h1>A Caminho</h1>
+          </div>
+
+          <p>Aqui está um banner com tons de azul, mantendo o mesmo estilo abstrato de logística, sem ícones ou escrita.</p>
+        </div>
+
+        <div className={styles.cardStatus}>
+          <div className={styles.banner3}>
+              <h1>Entregues</h1>
+          </div>
+
+          <p>Aqui está um banner com tons de azul, mantendo o mesmo estilo abstrato de logística, sem ícones ou escrita.</p>
+        </div>
       </div>
+
+      <div className={styles.separator}></div>
 
     </div>
   )

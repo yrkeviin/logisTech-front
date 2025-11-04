@@ -18,13 +18,13 @@
 
 .header h1 {
     transition: .4s ease-in-out;
+    font-size: 1.5rem;
 }
 
 .header h1:hover {
     color: #FF3A18;
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
     cursor: pointer;
-    font-size: 2.05rem;
 }
 
 .header ul {
@@ -33,7 +33,7 @@
     gap: 4rem;
     margin-right: 5rem;
     margin-left: auto;
-    font-size: 1rem;
+    font-size: .88rem;
 }
 
 .header ul li a {
@@ -46,7 +46,6 @@
 
 .header ul li a:hover {
     color: #FF3A18;
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
     border-bottom: 1.5px solid #FF3A18;
-    font-size: 1.05rem;
 }
