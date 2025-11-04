@@ -32,6 +32,12 @@ export default function Informacoes() {
         description="Pedidos Totais"
         />
       </div>
+
+      <div className={styles.slogan}>
+        <p>Siga o <span>mapa</span> e faça suas entregas!</p>
+
+        <img src="/image/caminhaoSlogan.png" alt="" />
+      </div>
     </div>
   )
 }
